@@ -46,4 +46,36 @@
     <p>
         <b>Scrum</b> teams commit to completing an increment of work, which is potentially shippable, through set intervals called sprints. Their goal is to create learning loops to quickly gather and integrate customer feedback. Scrum teams <b>adopt specific roles, create special artifacts, and hold regular ceremonies</b> to keep things moving forward. Scrum is best defined in <b>The Scrum Guide</b>.
     </p>
+    <p>
+        With scrum, your team promises to ship some valuable increment of work by the end of each sprint. Scrum is built on empiricism, focusing on small increments of work that will help you learn from your customers and better inform what you do next. Here's how it breaks down: 
+    </p>
+    <p>
+        <h5>
+            Scrum cadence
+        <h5>
+        Scrum moves fast, with sprints that usually last between one to four weeks, which have clear start and finish dates. The short time frame forces complex tasks to be split into smaller stories and help your team learn quickly. A key question is this: Can your team ship useable code that fast?
+
+        Sprints are punctuated by sprint planning, sprint review, and retrospective meetings and peppered with daily scrum (standup) meetings. These scrum ceremonies are lightweight and run on a continuous basis.
+    </p>
+    <p>
+        <h5>
+            Scrum roles
+        </h5>
+        
+        Scrum has three clearly defined roles.
+
+        <ul>
+            <li>
+                The product owner advocates for the customer, manages the product backlog, and helps prioritize the work done by the development team.
+            </li>
+            <li>
+                The scrum master helps the team stay grounded in the scrum principles.
+            </li>
+            <li>
+                The development team chooses the work to be done, delivers increments, and demonstrates collective accountability.
+            </li>
+        </ul>
+        
+        Who manages the scrum team? Well, nobody. Scrum teams are self-organizing and everyone is equal, despite having different responsibilities. The team is united by the goal of shipping value to customers.
+    </p>
 </details>
