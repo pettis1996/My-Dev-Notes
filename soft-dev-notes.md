@@ -38,6 +38,44 @@
     <p>
         <b>Kanban</b> is all about visualizing your work, limiting work in progress, and maximizing efficiency (or flow). Kanban teams focus on <b>reducing the time</b> a project takes (or user story) from start to finish. They do this by using a kanban board and continuously improving their flow of work. 
     </p>
+    <p>
+        Kanban helps visualize your work, limit work-in-progress (WIP) and quickly move work from "Doing" to "Done.".
+        Kanban is great for teams that have lots of incoming requests that vary in priority and size. Whereas scrum processes require high control over what is in scope, kanban let’s you go with the flow. Let’s take a look at the same five considerations to help you decide.  
+    </p>
+    <p>
+        <b>
+            Kanban cadence
+        </b>
+        Kanban is based on a continuous workflow structure that keeps teams nimble and ready to adapt to changing priorities. Work items—represented by cards— are organized on a kanban board where they flow from one stage of the workflow(column) to the next. Common workflow stages are To Do, In Progress, In Review, Blocked, and Done. But that’s boring.
+        The best part of kanban is making custom columns for how your team works. My team ships content, so our columns(simplified) go from Backlog, to Prioritized, to Outlines Ready, to Writing, Designing, Technical Review, and Shipped. Our board helped us learn that we ship about one piece of content per week, and where our bottlenecks are (looking at the Technical Review!).
+    </p>
+    <p>
+        <b>
+            Release methodology
+        </b>
+        In kanban, updates are released whenever they are ready, without a regular schedule or predetermined due dates.
+        In theory, kanban does not prescribe a fixed time to deliver a task. If the task gets completed earlier (or later), it can be released as needed without having to wait for a release milestone like sprint review. 
+    </p>
+    <p>
+        <b>
+            Kanban roles
+        </b>
+        The whole team owns the kanban board. Some teams enlist an agile coach but, unlike scrum, there is no single “kanban master” who keeps everything running smoothly. It’s the collective responsibility of the entire team to collaborate on and deliver the tasks on the board.
+    </p>
+    <p>
+        <b>
+            Key metrics
+        </b>
+        Lead time and cycle time are important metrics for kanban teams. The deal with the average amount of time that it takes for a task to move from start to finish. Improving cycle times indicates the success of kanban teams.
+        The Cumulative Flow Diagram (CFD) is another analytical tool used by kanban teams to understand the number of work items in each state. CFDs help identify specific bottlenecks that need to be resolved for better throughput.
+        Another way to deal with bottlenecks is through Work In Progress (WIP) limits. A WIP limit caps the number of cards that can be in any one column at one time. When you reach your WIP limit, a tool like Jira Software caps that column, and the team swarms on those items to move them forward.
+    </p>
+    <p>
+        <b>
+            Change philosophy
+        </b>
+        A kanban workflow can change at any time. New work items can get added to the backlog and existing cards can get blocked or removed based on prioritization. Also, if the team capacity changes, WIP limit can be recalibrated and work items adjusted accordingly. It’s all about being flexible in kanban.
+    </p>
 </details>
 
 <details>
