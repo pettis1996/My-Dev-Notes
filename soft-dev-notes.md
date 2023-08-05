@@ -125,3 +125,23 @@
         Teams strive to understand how much they can accomplish within their sprint time boundaries. They commit to its delivery within a sprint. However, scrum teams can receive customer feedback that encourages them to pivot and change the sprint to deliver the most customer value. During the sprint retrospective, scrum teams should discuss how to limit change in the future, as changes put the potentially shippable increment at risk. If a team frequently changes scope mid-sprint, it may signify work was selected that isn’t adequately understood. It could also mean the team has operational/unplannable work that interferes with the plan.
     </p>
 </details>
+
+<details>
+    <summary>Kanban VS Scrum Comparison</summary>
+    <p>
+        <ul>
+            <li>
+                Kanban is continuous, fluid and visualized process whereas Scrum is short and structured, where work is shipped during fixed intervals known as sprints
+            </li>
+            <li>
+                Kanban is less structured compared to other frameworks like scrum
+            </li>
+            <li>
+                Kanban is more visualized way of managing the development process
+            </li>
+            <li>
+                Kanban has fewer meetings and formal roles compared to other frameworks like scrum
+            </li>
+        </ul>
+    </p>
+</details>
