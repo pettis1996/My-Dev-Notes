@@ -12,8 +12,9 @@
             <b>Summary:</b>
         </h5>
         Agile is a structured and iterative approach to project management and product development. It recognizes the volatility of product development, and provides a methodology for self-organizing teams to respond to change without going off the rails.
-        <br>
-
+    </p>
+    <br>
+    <p>
         <h5>
             <b>More Information</b>
         </h5>
