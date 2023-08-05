@@ -131,16 +131,19 @@
     <p>
         <ul>
             <li>
-                Kanban is continuous, fluid and visualized process whereas Scrum is short and structured, where work is shipped during fixed intervals known as sprints
+                Kanban is continuous, fluid and visualized process whereas Scrum is short and structured, where work is shipped during fixed intervals known as sprints.
             </li>
             <li>
-                Kanban is less structured compared to other frameworks like scrum
+                Kanban is less structured compared to other frameworks like Scrum.
             </li>
             <li>
                 Kanban is more visualized way of managing the development process
             </li>
             <li>
-                Kanban has fewer meetings and formal roles compared to other frameworks like scrum
+                Kanban has fewer meetings and formal roles compared to other frameworks like Scrum.
+            </li>
+            <li>
+                Scrum is suggested for larger team for better management, while Kanban is suggested for smalled developer teams.
             </li>
         </ul>
     </p>
