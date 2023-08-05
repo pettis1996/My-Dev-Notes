@@ -1,8 +1,6 @@
 # Software Development Notes
 
-### General
-
-<br>
+## General
 
 <details>
     <summary>What is Agile in regards to software development</summary>
