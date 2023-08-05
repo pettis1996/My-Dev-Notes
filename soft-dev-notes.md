@@ -49,7 +49,7 @@
     <p>
         With scrum, your team promises to ship some valuable increment of work by the end of each sprint. Scrum is built on empiricism, focusing on small increments of work that will help you learn from your customers and better inform what you do next. Here's how it breaks down: 
     </p>
-    <p>
+    <p style="display: flex; flex-direction: column;">
         <b>
             Scrum cadence:
         </b>
@@ -76,13 +76,13 @@
     </p>
     <p>
         <b>
-            Common metrics
+            Common metrics:
         </b>
         Scrum metrics are data points scrum teams can use to improve efficiency and effectiveness. They can inform decision-making and help teams become more efficient in planning and execution. During the sprint planning phase, teams can use metrics such as sprint goals, team velocity, team capacity, and type of work. During stand-ups, teams can also benefit from measuring progress towards sprint goals, reviewing a sprint burndown, understanding workload distribution, and more.
     </p>
     <p>
         <b>
-            Change philosophy
+            Change philosophy:
         </b>
         Teams strive to understand how much they can accomplish within their sprint time boundaries. They commit to its delivery within a sprint. However, scrum teams can receive customer feedback that encourages them to pivot and change the sprint to deliver the most customer value. During the sprint retrospective, scrum teams should discuss how to limit change in the future, as changes put the potentially shippable increment at risk. If a team frequently changes scope mid-sprint, it may signify work was selected that isn’t adequately understood. It could also mean the team has operational/unplannable work that interferes with the plan.
     </p>
