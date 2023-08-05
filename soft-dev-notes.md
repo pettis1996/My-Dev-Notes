@@ -20,6 +20,6 @@
         </h5>
         <small>
             *Reference: <a href="https://www.atlassian.com/agile/kanban/kanban-vs-scrum">Atlassian</a>
-        <small>
+        </small>
     </p>
 </details>
