@@ -18,8 +18,8 @@
         <h5>
             <b>More Information</b>
         </h5>
-        <small>
+        <h6>
             *Reference: <a href="https://www.atlassian.com/agile/kanban/kanban-vs-scrum">Atlassian</a>
-        </small>
+        </h6>
     </p>
 </details>
