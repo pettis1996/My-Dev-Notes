@@ -53,8 +53,10 @@
         <b>
             Scrum cadence:
         </b>
-        Scrum moves fast, with sprints that usually last between one to four weeks, which have clear start and finish dates. The short time frame forces complex tasks to be split into smaller stories and help your team learn quickly. A key question is this: Can your team ship useable code that fast?
-        Sprints are punctuated by sprint planning, sprint review, and retrospective meetings and peppered with daily scrum (standup) meetings. These scrum ceremonies are lightweight and run on a continuous basis.
+        <span>
+            Scrum moves fast, with sprints that usually last between one to four weeks, which have clear start and finish dates. The short time frame forces complex tasks to be split into smaller stories and help your team learn quickly. A key question is this: Can your team ship useable code that fast?
+            Sprints are punctuated by sprint planning, sprint review, and retrospective meetings and peppered with daily scrum (standup) meetings. These scrum ceremonies are lightweight and run on a continuous basis.
+        </span>
     </p>
     <p>
         <b>
