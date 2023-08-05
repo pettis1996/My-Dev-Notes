@@ -51,19 +51,16 @@
     </p>
     <p>
         <b>
-            Scrum cadence
+            Scrum cadence:
         </b>
         Scrum moves fast, with sprints that usually last between one to four weeks, which have clear start and finish dates. The short time frame forces complex tasks to be split into smaller stories and help your team learn quickly. A key question is this: Can your team ship useable code that fast?
-
         Sprints are punctuated by sprint planning, sprint review, and retrospective meetings and peppered with daily scrum (standup) meetings. These scrum ceremonies are lightweight and run on a continuous basis.
     </p>
     <p>
         <b>
-            Scrum roles
+            Scrum roles:
         </b>
-
         Scrum has three clearly defined roles.
-
         <ul>
             <li>
                 The product owner advocates for the customer, manages the product backlog, and helps prioritize the work done by the development team.
@@ -74,8 +71,7 @@
             <li>
                 The development team chooses the work to be done, delivers increments, and demonstrates collective accountability.
             </li>
-        </ul>
-        
+        </ul>  
         Who manages the scrum team? Well, nobody. Scrum teams are self-organizing and everyone is equal, despite having different responsibilities. The team is united by the goal of shipping value to customers.
     </p>
 </details>
