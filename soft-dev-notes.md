@@ -16,10 +16,13 @@
     <br>
     <p>
         <h5>
-            <b>More Information</b>
+            <b>More Information:</b>
         </h5>
         <h6>
             *Reference: <a href="https://www.atlassian.com/agile/kanban/kanban-vs-scrum">Atlassian</a>
         </h6>
     </p>
+    <p>
+        When it comes to implementing Agile and DevOps, <b>kanban</b> and <b>scrum</b> provide different ways to do so.
+    </P>
 </details>
