@@ -309,6 +309,7 @@
     <summary>
         OOP - Methods
     </summary>
+    <br>
     <blockquote>
         <p>
             Methods represent behaviors. Methods perform actions; methods might return information about an object or update an object’s data. The method’s code is defined in the class definition.
