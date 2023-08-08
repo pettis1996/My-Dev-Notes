@@ -260,8 +260,61 @@
                 Source
             </summary>
             <blockquote>
-                <a href="https://www.educative.io/blog/object-oriented-programming">educative.io</a>
+                <a href="https://www.educative.io/blog/object-oriented-programming">educative.io - Object Oriented Programming</a>
             </blockquote>
         </details>
+    </blockquote>
+</details>
+
+<details>
+    <summary>
+        OOP - Classes
+    </summary>
+    <blockquote>
+        <p>
+            In a nutshell, classes are essentially user-defined data types. Classes are where we create a blueprint for the structure of methods and attributes. Individual objects are instantiated from this blueprint.
+        </p>    
+        <p>
+            Classes contain fields for attributes and methods for behaviors. In our Dog class example, attributes include name & birthday, while methods include bark() and updateAttendance().
+        </p>
+    </blockquote>
+</details>
+
+<details>
+    <summary>
+        OOP - Objects
+    </summary>
+    <blockquote>
+        <p>
+            Objects are, unsurprisingly, a huge part of OOP! Objects are instances of a class created with specific data.
+        </p>    
+    </blockquote>
+</details>
+
+<details>
+    <summary>
+        OOP - Attributes
+    </summary>
+    <blockquote>
+        <p>
+            Attributes are the information that is stored. Attributes are defined in the Class template. When objects are instantiated, individual objects contain data stored in the Attributes field.
+        </p>    
+        <p>
+            The state of an object is defined by the data in the object’s attributes fields. For example, a puppy and a dog might be treated differently at a pet camp. The birthday could define the state of an object and allow the software to handle dogs of different ages differently.
+        </p>
+    </blockquote>
+</details>
+
+<details>
+    <summary>
+        OOP - Methods
+    </summary>
+    <blockquote>
+        <p>
+            Methods represent behaviors. Methods perform actions; methods might return information about an object or update an object’s data. The method’s code is defined in the class definition.
+        </p>    
+        <p>
+            When individual objects are instantiated, these objects can call the methods defined in the class. In the code snippet below, the bark method is defined in the Dog class, and the bark() method is called on the Rufus object.
+        </p>
     </blockquote>
 </details>
