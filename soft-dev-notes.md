@@ -314,7 +314,7 @@
             Methods represent behaviors. Methods perform actions; methods might return information about an object or update an object’s data. The method’s code is defined in the class definition.
         </p>    
         <p>
-            When individual objects are instantiated, these objects can call the methods defined in the class. In the code snippet below, the bark method is defined in the Dog class, and the bark() method is called on the Rufus object.sss
+            When individual objects are instantiated, these objects can call the methods defined in the class. In the code snippet below, the bark method is defined in the Dog class, and the bark() method is called on the Rufus object.
         </p>
         <p>
            Methods often modify, update or delete data. Methods don’t have to update data though. For example, the bark() method doesn’t update any data because barking doesn’t modify any of the attributes of the Dog class: name or birthday. 
