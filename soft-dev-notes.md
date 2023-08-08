@@ -179,13 +179,13 @@
         Expressions and Statements
     </summary>
     <hr>
-    <p style="text-decoration: underline;">
+    <p>
         Expressions
     </p>
     <p>
         An expression is anything that results in a value(even if the value is None). Basically, any sequence of literals so, you can say that a string, integer, list, etc. are all expressions.
     </p>
-    <p style="text-decoration: underline;">
+    <p>
         Statements
     </p>
     <p>
