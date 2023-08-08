@@ -162,6 +162,8 @@
     <hr>
 </details>
 
+## Programming
+
 <details>
     <summary>
         What are static typed(or simply typed) programming languages?
