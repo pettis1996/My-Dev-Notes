@@ -148,3 +148,26 @@
         </ul>
     </p>
 </details>
+
+<details>
+    <summary>
+        What are static typed(or simply typed) programming languages?
+    </summary>
+    <p>
+        In static typed languages the variable type is know at compilation time instead of run time.
+    </p>
+    <p>
+        Some examples of static programming languages:
+    </p>
+    <ul>
+        <li>
+            C
+        </li>
+        <li>
+            C++
+        </li>
+        <li>
+            Java
+        </li>
+    </ul>
+</details>
