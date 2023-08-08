@@ -3,7 +3,9 @@
 ## General
 
 <details>
-    <summary>What is Agile in regards to software development</summary>
+    <summary>
+        What is Agile in regards to software development
+    </summary>
     <hr>
     <p>
         <h5>
@@ -30,10 +32,13 @@
     <p>
         <b>Agile</b> is a structured and iterative approach to project management and product development. It recognizes the volatility of product development, and provides a methodology for self-organizing teams to respond to change without going off the rails. 
     </p>
+    <hr>
 </details>
 
 <details>
-    <summary>What is Kanban</summary>
+    <summary>
+        What is Kanban
+    </summary>
     <hr>
     <p>
         <b>Kanban</b> is all about visualizing your work, limiting work in progress, and maximizing efficiency (or flow). Kanban teams focus on <b>reducing the time</b> a project takes (or user story) from start to finish. They do this by using a kanban board and continuously improving their flow of work. 
@@ -76,10 +81,13 @@
         </b>
         A kanban workflow can change at any time. New work items can get added to the backlog and existing cards can get blocked or removed based on prioritization. Also, if the team capacity changes, WIP limit can be recalibrated and work items adjusted accordingly. It’s all about being flexible in kanban.
     </p>
+    <hr>
 </details>
 
 <details>
-    <summary>What is Scrum</summary>
+    <summary>
+        What is Scrum
+    </summary>
     <hr>
     <p>
         <b>Scrum</b> teams commit to completing an increment of work, which is potentially shippable, through set intervals called sprints. Their goal is to create learning loops to quickly gather and integrate customer feedback. Scrum teams <b>adopt specific roles, create special artifacts, and hold regular ceremonies</b> to keep things moving forward. Scrum is best defined in <b>The Scrum Guide</b>.
@@ -124,10 +132,13 @@
         </b>
         Teams strive to understand how much they can accomplish within their sprint time boundaries. They commit to its delivery within a sprint. However, scrum teams can receive customer feedback that encourages them to pivot and change the sprint to deliver the most customer value. During the sprint retrospective, scrum teams should discuss how to limit change in the future, as changes put the potentially shippable increment at risk. If a team frequently changes scope mid-sprint, it may signify work was selected that isn’t adequately understood. It could also mean the team has operational/unplannable work that interferes with the plan.
     </p>
+    <hr>
 </details>
 
 <details>
-    <summary>Kanban VS Scrum Comparison</summary>
+    <summary>
+        Kanban VS Scrum Comparison
+    </summary>
     <hr>
     <p>
         <ul>
@@ -148,6 +159,7 @@
             </li>
         </ul>
     </p>
+    <hr>
 </details>
 
 <details>
@@ -172,6 +184,7 @@
             Java
         </li>
     </ul>
+    <hr>
 </details>
 
 <details>
@@ -191,4 +204,5 @@
     <p>
         Statements are instructions executed by the interpreter like variable assignments, for loops and conditionals (if-else).
     </p>
+    <hr>
 </details>
