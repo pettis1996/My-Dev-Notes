@@ -173,3 +173,19 @@
         </li>
     </ul>
 </details>
+
+<details>
+    <summary>
+        Expressions and Statements
+    </summary>
+    <hr>
+    <p>
+        Expressions
+    </p>
+    <p>
+        An expression is anything that results in a value(even if the value is None). Basically, any sequence of literals so, you can say that a string, integer, list, etc. are all expressions.
+    </p>
+    <p>
+        Statements are instructions executed by the interpreter like variable assignments, for loops and conditionals (if-else).
+    </p>
+</details>
