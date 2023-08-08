@@ -268,8 +268,9 @@
 
 <details>
     <summary>
-        OOP - Classes
+        Object Oriented Programming - Classes
     </summary>
+    <br>
     <blockquote>
         <p>
             In a nutshell, classes are essentially user-defined data types. Classes are where we create a blueprint for the structure of methods and attributes. Individual objects are instantiated from this blueprint.
@@ -282,8 +283,9 @@
 
 <details>
     <summary>
-        OOP - Objects
+        Object Oriented Programming - Objects
     </summary>
+    <br>
     <blockquote>
         <p>
             Objects are, unsurprisingly, a huge part of OOP! Objects are instances of a class created with specific data.
@@ -293,8 +295,9 @@
 
 <details>
     <summary>
-        OOP - Attributes
+        Object Oriented Programming - Attributes
     </summary>
+    <br>
     <blockquote>
         <p>
             Attributes are the information that is stored. Attributes are defined in the Class template. When objects are instantiated, individual objects contain data stored in the Attributes field.
@@ -307,7 +310,7 @@
 
 <details>
     <summary>
-        OOP - Methods
+        Object Oriented Programming - Methods
     </summary>
     <br>
     <blockquote>
