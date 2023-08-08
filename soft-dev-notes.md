@@ -314,7 +314,19 @@
             Methods represent behaviors. Methods perform actions; methods might return information about an object or update an object’s data. The method’s code is defined in the class definition.
         </p>    
         <p>
-            When individual objects are instantiated, these objects can call the methods defined in the class. In the code snippet below, the bark method is defined in the Dog class, and the bark() method is called on the Rufus object.
+            When individual objects are instantiated, these objects can call the methods defined in the class. In the code snippet below, the bark method is defined in the Dog class, and the bark() method is called on the Rufus object.sss
+        </p>
+        <p>
+           Methods often modify, update or delete data. Methods don’t have to update data though. For example, the bark() method doesn’t update any data because barking doesn’t modify any of the attributes of the Dog class: name or birthday. 
+        </p>
+        <p>
+            The updateAttendance() method adds a day the Dog attended the pet-sitting camp. The attendance attribute is important to keep track of for billing Owners at the end of the month.
+        </p>
+        <p>
+            Methods are how programmers promote reusability and keep functionality encapsulated inside an object. This reusability is a great benefit when debugging. If there’s an error, there’s only one place to find it and fix it instead of many.
+        </p>
+        <p>
+            The underscore in _attendance denotes that the variable is protected and shouldn’t be modified directly. The updateAttendance() method changes _attendance.
         </p>
     </blockquote>
 </details>
