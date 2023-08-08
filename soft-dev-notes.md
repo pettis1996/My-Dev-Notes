@@ -214,6 +214,7 @@
         What is Object Oriented Programming?
     </summary>
     <hr>
+    <blockquote>
     <p>
         Object-Oriented Programming (OOP) is a programming paradigm in computer science that relies on the concept of classes and objects.It is used to structure a software program into simple, reusable pieces of code blueprints (usually called classes), which are used to create individual instances of objects. There are many object-oriented programming languages, including JavaScript, C++, Java, and Python.
     </p>
@@ -256,5 +257,6 @@
             <a href="https://www.educative.io/blog/object-oriented-programming">educative.io</a>
         </blockquote>
     </details>
+    </blockquote>
     <hr>
 </details>
