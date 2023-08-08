@@ -252,7 +252,9 @@
         <summary>
             Source
         </summary>
-        <a href="https://www.educative.io/blog/object-oriented-programming">educative.io</a>
+        <blockquote>
+            <a href="https://www.educative.io/blog/object-oriented-programming">educative.io</a>
+        </blockquote>
     </details>
     <hr>
 </details>
