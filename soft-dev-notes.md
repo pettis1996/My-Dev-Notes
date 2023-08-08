@@ -128,6 +128,7 @@
 
 <details>
     <summary>Kanban VS Scrum Comparison</summary>
+    <hr>
     <p>
         <ul>
             <li>
@@ -153,6 +154,7 @@
     <summary>
         What are static typed(or simply typed) programming languages?
     </summary>
+    <hr>
     <p>
         In static typed languages the variable type is know at compilation time instead of run time.
     </p>
