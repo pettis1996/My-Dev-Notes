@@ -339,6 +339,7 @@
     <summary>
         Four Principles of OOP
     </summary>
+    <br>
     <blockquote>
         <p>
             The four pillars of object-oriented programming are:
@@ -364,6 +365,7 @@
     <summary>
         Inheritance
     </summary>
+    <br>
     <blockquote>
         <p>
             Inheritance allows classes to inherit features of other classes. Put another way, parent classes extend attributes and behaviors to child classes. Inheritance supports reusability.
