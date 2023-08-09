@@ -334,3 +334,57 @@
         </p>
     </blockquote>
 </details>
+
+<details>
+    <summary>
+        Four Principles of OOP
+    </summary>
+    <blockquote>
+        <p>
+            The four pillars of object-oriented programming are:
+        </p>
+        <ul>
+            <li>
+                <b>Inheritance:</b> child classes inherit data and behaviours from the parent class.
+            </li>
+            <li>
+                <b>Encapsulation:</b> containing information in an object, exposing only selected information.
+            </li>
+            <li>
+                <b>Abstraction:</b> only exposing high-level public methods for accessing an object.
+            </li>
+            <li>
+                <b>Polymorphism:</b> many methods can do the same task.
+            </li>
+        </ul>
+    </blockquote>
+</details>
+
+<details>
+    <summary>
+        Inheritance
+    </summary>
+    <blockquote>
+        <p>
+            Inheritance allows classes to inherit features of other classes. Put another way, parent classes extend attributes and behaviors to child classes. Inheritance supports reusability.
+        </p>
+        <p>
+            If basic attributes and behaviors are defined in a parent class, child classes can be created, extending the functionality of the parent class and adding additional attributes and behaviors.
+        </p>
+        <p>
+            For example, herding dogs have the unique ability to herd animals. In other words, all herding dogs are dogs, but not all dogs are herding dogs. We represent this difference by creating a child class HerdingDog from the parent class Dog, and then adding the unique herd() behavior.
+        </p>
+        <p>
+            The benefits of inheritance are programs can create a generic parent class and then create more specific child classes as needed. This simplifies programming because instead of recreating the structure of the Dog class multiple times, child classes automatically gain access to functionalities within their parent class.
+        </p>
+        <blockquote>
+            <b>Note:</b> Parent classes are also known as superclasses or base classes. The child class can also be called a subclass, derived class, or extended class.
+        </blockquote>
+        <p>
+            In JavaScript, inheritance is also known as prototyping. A prototype object is a template for another object to inherit properties and behaviors. There can be multiple prototype object templates, creating a prototype chain.
+            This is the same concept as the parent/child inheritance. Inheritance is from parent to child. In our example, all three dogs can bark, but only Maisel and Fluffy can herd.
+            The herd() method is defined in the child HerdingDog class, so the two objects, Maisel and Fluffy, instantiated from the HerdingDog class have access to the herd() method.
+            Rufus is an object instantiated from the parent class Dog, so Rufus only has access to the bark() method.
+        </p>
+    </blockquote>
+</details>
