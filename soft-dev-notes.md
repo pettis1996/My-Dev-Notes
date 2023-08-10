@@ -452,3 +452,57 @@
         </ul>
     </blockquote>
 </details>
+
+<details>
+    <summary>
+        Abstraction
+    </summary>
+    <br>
+    <blockquote>
+        <p>
+            Abstraction is an extension of encapsulation that uses classes and objects, which contain data and code, to hide the internal details of a program from its users. This is done by creating a layer of abstraction between the user and the more complex source code, which helps protect sensitive information stored within the source code.
+        </p>
+        <ul>
+            <li>
+                Reduces complexity and improves code readability
+            </li>
+            <li>
+                Facilitates code reuse and organization
+            </li>
+            <li>
+                Data hiding improves data security by hiding sensitive details from users
+            </li>
+            <li>
+                Enhances productivity by abstracting away low-level details
+            </li>
+        </ul>
+        <p>
+            Abstraction can also be explained using cars. Think of how a driver operates a vehicle using only the car’s dashboard.
+            A driver uses the car’s steering wheel, accelerator, and brake pedals to control the vehicle. The driver does not have to worry about how the engine works or what parts are used for each movement. This is an abstraction – only the important aspects necessary for a driver to use the car are visible.
+            Similarly, data abstraction allows developers to work with complex information without worrying about its inner workings. In this way, it helps to improve code quality and readability.
+        </p>
+        <p>
+            Abstraction also serves an important security role. By only displaying selected pieces of data and only allowing data to be accessed through classes and modified through methods, we protect the data from exposure. To continue with the car example, you wouldn’t want an open gas tank while driving a car.
+        </p>
+        <p>
+            The benefits of abstraction are summarized below:
+        </p>
+        <ul>
+            <li>
+                Simple, high-level user interfaces
+            </li>
+            <li>
+                Complex code is hidden
+            </li>
+            <li>
+                Security
+            </li>
+            <li>
+                Easier software maintenance
+            </li>
+            <li>
+                Code updates rarely change the abstraction 
+            </li>
+        </ul>
+    </blockquote>
+</details>
