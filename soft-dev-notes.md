@@ -390,3 +390,65 @@
         </p>
     </blockquote>
 </details>
+
+<details>
+    <summary>
+        Encapsulation
+    </summary>
+    <br>
+    <blockquote>
+        <p>
+            Encapsulation means containing all important information inside an object, and only exposing selected information to the outside world. Attributes and behaviors are defined by code inside the class template.
+            Then, when an object is instantiated from the class, the data and methods are encapsulated in that object. Encapsulation hides the internal software code implementation inside a class and hides the internal data of inside objects.
+        </p>
+        <p>
+            Encapsulation requires defining some fields as private and some as public.
+        </p>
+        <ul>
+            <li>
+                Private/Internal Interface: methods and properties accessible from other methods of the same class.
+            </li>
+            <li>
+                Public / External Interface: methods and properties accessible from outside the class.
+            </li>
+        </ul>
+        <p>
+            Encapsulation adds security. Attributes and methods can be set to private, so they can’t be accessed outside the class. To get information about data in an object, public methods & properties are used to access or update data.
+        </p>
+        <blockquote>
+            This adds a layer of security where the developer chooses what data can be seen on an object by exposing that data through public methods in the class definition.
+        </blockquote>
+        <p>
+            Within classes, most programming languages have public, protected, and private sections. The public section is the limited selection of methods accessible from the outside world or other classes within the program. Protected is only accessible to child classes.
+            Private code can only be accessed from within that class. To go back to our dog/owner example, encapsulation is ideal so owners can’t access private information about other people’s dogs.
+        </p>
+        <blockquote>
+            <b>Note:</b> JavaScript has private and protected properties and methods. Protected Fields are prefixed with a _; private fields are prefixed with a #. Protected fields are inherited. Private ones aren’t.
+        </blockquote>
+        <p>
+            Encapsulating & updating data: Since methods can also update an object’s data, the developer controls what values can be changed through public methods.
+            This allows us to hide important information that should not be changed from phishing and the more likely scenario of other developers mistakenly changing important data.
+        </p>
+        <p>
+            Instead, developers create public methods that allow other developers to call methods on an object. Ideally, these public methods come with documentation for external developers.
+            The benefits of encapsulation are summarized here:
+        </p>
+        <ul>
+            <li>
+                <b>Adds security</b>: Only public methods and attributes are accessible from the outside
+            </li>
+            <li>
+                <b>Protects against common mistakes:</b> Only public fields & methods are accessible, so developers don’t accidentally change something dangerous
+            </li>
+            <li>
+                <b>Protects IP:</b> Code is hidden in a class; only public methods are accessible by the outside developers
+            </li>
+            <li>
+                <b>Supportable:</b> Most code undergoes updates and improvements
+            </li>
+            <li>
+                <b>Hides complexity:</b> No one can see what’s behind the object’s curtain!
+            </li>
+        </ul>
+    </blockquote>
+</details>
