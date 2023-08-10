@@ -506,3 +506,44 @@
         </ul>
     </blockquote>
 </details>
+
+<details>
+    <summary>
+        Polymorphism
+    </summary>
+    <br>
+    <blockquote>
+        <p>
+            Polymorphism means designing objects to share behaviors. Using inheritance, objects can override shared parent behaviors with specific child behaviors. Polymorphism allows the same method to execute different behaviors in two ways: method overriding and method overloading.
+        </p>
+        <h5>
+            Method Overriding
+        </h5>
+        <p>
+            Runtime polymorphism uses method overriding. In method overriding, a child class can implement differently than its parent class. In our dog example, we may want to give TrackingDog a specific type of bark different than the generic dog class.
+        </p>
+        <blockquote>
+            Method overriding could create a bark() method in the child class that overrides the bark() method in the parent Dog class.
+        </blockquote>
+        <h5>
+            Method Overloading
+        </h5>
+        <p>
+            Compile Time polymorphism uses method overloading. Methods or functions may have the same name but a different number of parameters passed into the method call. Different results may occur depending on the number of parameters passed in.
+        </p>
+        <p>
+            The benefits of Polymorphism are:
+        </p>
+        <ul>
+            <li>
+                Objects of different types can be passed through the same interface
+            </li>
+            <li>
+                Method Overriding
+            </li>
+            <li>
+                Method Overloading
+            </li>
+        </ul>
+    </blockquote>
+</details>
