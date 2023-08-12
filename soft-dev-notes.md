@@ -561,10 +561,112 @@
             "A compiler is a translator used to convert high-level programming language to low-level programming language. It converts the whole program in one session and reports errors detected after the conversion. Compiler takes time to do its work as it translates high-level code to lower-level code all at once and then saves it to memory."
         </p>
         <h5>
-            Interpreter
+            Interpreter:
         </h5>
         <p>
             "Just like a compiler, is a translator used to convert high-level programming language to low-level programming language. It converts the program line by line and reports errors detected at once, while doing the conversion. With this, it is easier to detect errors than in a compiler."
+        </p>
+    </blockquote>
+</details>
+
+<details>
+    <summary>
+        SOLID Design Principles
+    </summary>
+    <br>
+    <blockquote>
+        <h5>
+            SOLID Design Principles are about:
+        </h5>
+        <ul>
+            <li>
+                Makes it easier to extend the functionality of the system.
+            </li>
+            <li>
+                Makes the code more readable and easier to maintain
+            </li>
+        </ul>
+        <h5>
+            SOLID stands for:
+        </h5>
+        <ul>
+            <li>
+                <b>Single Responsibility</b> - A class, module, component, entity, etc., should have one responsibility reason to change. It was edited by Robert Martin due to wrong understanding of principle
+            </li>
+            <li>
+                <b>Open-Closed</b> - A class should be open for extension, but closed for modification. What this practically means is that you should extend functionality by adding a new code and not by modifying it. Your system should be separated into components so it can be easily extended without breaking everything
+            </li>
+            <li>
+                <b>Liskov Substitution</b> - Any derived class should be able to substitute the its parent without altering its corrections. Practically, every part of the code will get the expected result no matter which part is using it
+            </li>
+            <li>
+                <b>Interface Segregation</b> - A client should never depend on anything it doesn't uses. Big interfaces must be splitted to smaller interfaces if needed
+            </li>
+            <li>
+                <b>Dependency Inversion</b> - High level modules should depend on abstractions, not low level modules
+            </li>
+        </ul>
+    </blockquote>
+</details>
+
+<details>
+    <summary>
+        What is YAGNI and DRY?
+    </summary>
+    <br>
+    <blockquote>
+        <h5>
+            YAGNI
+        </h5>
+        <p>
+            YAGNI stands for You aren't gonna need it and it means that you mus only add functionality that will be used. No need to keep functionality that is not really needed.
+        </p>
+        <h5>
+            DRY
+        </h5>
+        <p>
+            DRY stands for Don't Repeat Yourself.Actually it means that you shouldn't duplicate logic and use functions/classes instead. But this must be done smartly and pay attention to the domain logic. Same code lines don't always mean duplication!
+        </p>
+    </blockquote>
+</details>
+
+<details>
+    <summary>
+        The four pillars of Object Oriented Programming
+    </summary>
+    <br>
+    <blockquote>
+        <ul>
+            <li>
+                <b>Abstraction</b> - you don't need to know how this class implemented. You need to know what functionality does it provide (interface) and how to use it
+            </li>
+            <li>
+                <b>Encapsulation</b> - keep fields for class purposes private (or protected) and provide public methods if needed. We must keep the data and code safe within the class itself
+            </li>
+            <li>
+                <b>Inheritance</b> - gives ability to create class that shares some of attributes of existing classes
+            </li>
+            <li>
+                <b>Polymorphism</b> - same methods in different contexts can do different things. Method overloading and overriding are some forms of polymorphism
+            </li>
+        </ul>
+    </blockquote>
+</details>
+
+<details>
+    <summary>
+        Recursion Explanation
+    </summary>
+    <br>
+    <blockquote>
+        <p>
+            Recursion is the process (or strategy), when function calls itself. It has recursive case and exit case. In recursive case we call function again, in exit case we finish function without calling it again. If we don't have exit case - function will work infinite, until memory overload or call stack limit.
+        </p>
+        <h6>
+            Example of recursive code:
+        </h6>
+        <p> 
+            The Fibonacci Sequence
         </p>
     </blockquote>
 </details>
