@@ -542,8 +542,29 @@
                 Method Overriding
             </li>
             <li>
-                Method Overloading
+                Method Overloading.
             </li>
         </ul>
+    </blockquote>
+</details>
+
+<details>
+    <summary>
+        Compiler VS Interpreter
+    </summary>
+    <br>
+    <blockquote>
+        <h5>
+            Compiler:
+        </h5>
+        <p>
+            "A compiler is a translator used to convert high-level programming language to low-level programming language. It converts the whole program in one session and reports errors detected after the conversion. Compiler takes time to do its work as it translates high-level code to lower-level code all at once and then saves it to memory."
+        </p>
+        <h5>
+            Interpreter
+        </h5>
+        <p>
+            "Just like a compiler, is a translator used to convert high-level programming language to low-level programming language. It converts the program line by line and reports errors detected at once, while doing the conversion. With this, it is easier to detect errors than in a compiler."
+        </p>
     </blockquote>
 </details>
