@@ -85,9 +85,11 @@
     </blockquote>
 </details>
 
+## Getting Started and Running the FastAPI Server
+
 <details>
     <summary>
-        Getting Started and Running the FastAPI Server
+        Create your first Endpoint
     </summary>
     <br>
     <blockquote>
