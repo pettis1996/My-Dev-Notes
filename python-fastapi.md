@@ -3,12 +3,12 @@
 ## Introduction
 
 <blockquote>
+    <p>
         **FastAPI** is a modern, fast (high-performance), web framework for building APIs with Python 3.7+ based on standard Python type hints.
-    <br>
-
-    The key features are:
-    <br>
-
+    </p>
+    <p>
+        The key features are:
+    </p>
     <ul>
         <li>
             **Fast**: Very high performance, on par with NodeJS and Go (thanks to **Starlette** and **Pydantic**). One of the fastest Python frameworks available.
