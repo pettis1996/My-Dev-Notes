@@ -97,6 +97,9 @@
             First of all create an endpoint to retreive data from.
         </p>
         <p>
+            Import FastAPI as shown below and create an app variable as shown below. Use FastAPI(debug=True) to enable debug mode.
+        </p>
+        <p>
             The @app.get("/") uses the fastapi decorator class and the "/" indicates that navigating to http://<ip-address>:<port>/ will whow the returned result, in our case is the dictionary {"message": "Hello World"}.
         </port>
     </blockquote>
