@@ -73,5 +73,14 @@
         <blockquote>
             venv/Scripts/activate
         </blockquote>
+        <p>
+            The pip command for installing FastAPI and all of its components:
+        </p>
+        <blockquote>
+            pip install fastapi[all]
+        </blockquote>
+        <p>
+            This will install all required dependencies such as uvicorn and pydantic and others.
+        </p>
     </blockquote>
 </details>
