@@ -35,7 +35,7 @@
             <b>Standards-based:</b> Based on (and fully compatible with) the open standards for APIs: OpenAPI (previously known as Swagger) and JSON Schema.
         </li>
     </ul>
-    <a href="https://fastapi.tiangolo.com/">
+    <a href="https://fastapi.tiangolo.com/" target="_blank">
         Official Documentation
     </a>
 </blockquote>
