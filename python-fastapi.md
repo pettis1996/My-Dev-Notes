@@ -39,3 +39,39 @@
         </li>
     </ul>
 </blockquote>
+
+<details>
+    <summary>
+        How to install FastAPI
+    </summary>
+    <br>
+    <blockquote>
+        <p>
+            To install FastAPI you need to have python and pip installed on your machine.
+        </p>
+        <p>
+            It is prefered to install a virtual environment for your project and install required dependencies on the virtual environment.
+        </p>
+        <p>
+            The following guide can be used for assistance in installing venv module, creating a virtual env. and activating it.
+        </p>
+        <p>
+            <b>Step 1: </b> Install VirtualEnv Module
+        </p>
+        <blockquote>
+            pip install vitualenv
+        </blockquote>
+        <p>
+            <b>Step 2:</b> Create a Virtual Env.
+        </p>
+        <blockquote>
+            python -m venv <your-venv-name>
+        </blockquote>
+        <p>
+            <b>Step 3:</b> Activate your Virtual Env.
+        </p>
+        <blockquote>
+            venv/Scripts/activate
+        </blockquote>
+    </blockquote>
+</details>
