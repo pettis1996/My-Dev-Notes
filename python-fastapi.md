@@ -96,6 +96,9 @@
         <p>
             First of all create an endpoint to retreive data from.
         </p>
+        <p>
+            The @app.get("/") uses the fastapi decorator class and the "/" indicates that navigating to http://<ip-address>:<port>/ will whow the returned result, in our case is the dictionary {"message": "Hello World"}.
+        </port>
     </blockquote>
 </details>
 
