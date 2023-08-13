@@ -84,3 +84,25 @@
         </p>
     </blockquote>
 </details>
+
+<details>
+    <summary>
+        Getting Started and Running the FastAPI Server
+    </summary>
+    <br>
+    <blockquote>
+        <p>
+            First of all create an endpoint to retreive data from.
+        </p>
+        <blockquote>
+            from fastapi import FastAPI
+
+            app = FastAPI()
+
+
+            @app.get("/")
+            async def root():
+                return {"message": "Hello World"}
+        </blockquote>
+    </blockquote>
+</details>
