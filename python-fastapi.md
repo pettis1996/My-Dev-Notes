@@ -94,17 +94,18 @@
         <p>
             First of all create an endpoint to retreive data from.
         </p>
-        <br>
+        <blockquote>
             <q>
                 from fastapi import FastAPI
-
+            </q>
+            <q>
                 app = FastAPI()
-
-
+            </q>
+            <q>
                 @app.get("/")
                 async def root():
                     return {"message": "Hello World"}
             </q>
-        </br>
+        </blockquote>
     </blockquote>
 </details>
