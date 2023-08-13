@@ -95,7 +95,7 @@
             First of all create an endpoint to retreive data from.
         </p>
         <blockquote>
-           <q>
+            <q>
                 from fastapi import FastAPI
 
                 app = FastAPI()
@@ -104,7 +104,7 @@
                 @app.get("/")
                 async def root():
                     return {"message": "Hello World"}
-           </q>
+            </q>
         </blockquote>
     </blockquote>
 </details>
