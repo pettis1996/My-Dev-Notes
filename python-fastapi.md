@@ -3,6 +3,9 @@
 ## Introduction
 
 <blockquote>
+    <a href="https://fastapi.tiangolo.com/" target="_blank">
+        Official Documentation
+    </a>
     <p>
         <b>FastAPI</b> is a modern, fast (high-performance), web framework for building APIs with Python 3.7+ based on standard Python type hints.
     </p>
@@ -35,7 +38,4 @@
             <b>Standards-based:</b> Based on (and fully compatible with) the open standards for APIs: OpenAPI (previously known as Swagger) and JSON Schema.
         </li>
     </ul>
-    <a href="https://fastapi.tiangolo.com/" target="_blank">
-        Official Documentation
-    </a>
 </blockquote>
