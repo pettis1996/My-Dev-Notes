@@ -14,7 +14,7 @@
     </blockquote>
 </details>
 
-<details>
+<details style="border: 2px solid white">
     <summary>
         Common examples of applications built with Electron
     </summary>
