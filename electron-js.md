@@ -194,3 +194,10 @@ Your `package.json` file should look something like this after initializing your
         }
     }
 ```
+
+<h4>
+    Adding a .gitignore file
+</h4>
+<br>
+
+The `.gitignore` file specifies which files and directories to avoid tracking with **Git**. You should place a copy of <a href="https://github.com/github/gitignore/blob/main/Node.gitignore">GitHub's Node.js gitignore template</a> into your project's root folder to avoid committing your project's `node_modules` folder.
