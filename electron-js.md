@@ -115,6 +115,6 @@
 <h5>
     Initializing the project
 </h5>
-===
+---
 
 Electron apps are scaffolded using `npm`, with the `package.json` file as an entry point. Start by creating a folder and initializing an npm package within it with `npm init`.
