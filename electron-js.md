@@ -4,6 +4,12 @@
 <a href="https://www.electronjs.org/docs/latest/">
     ElectronJS Docs
 </a>
+<br>
+
+`First Application Tutorial:`
+<a href="https://www.electronjs.org/docs/latest/tutorial/tutorial-prerequisites">
+    Build your first Electron App
+</a>
 
 ## 📢 Introduction 📢
 
