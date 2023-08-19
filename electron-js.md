@@ -44,16 +44,10 @@
     <br>
     <blockquote>
         <p>
-            Electron Fiddle is a sandbox app written with Electron and supported by Electron's maintainers. We highly recommend installing it as a learning tool to experiment with Electron's APIs or to prototype features during development.
+            <a href="https://www.electronjs.org/fiddle">Electron Fiddle</a> is a sandbox app written with Electron and supported by Electron's maintainers. It is highly recommended installing it as a learning tool to experiment with Electron's APIs or to prototype features during development.
         </p>
         <p>
-            Fiddle also integrates nicely with our documentation. When browsing through examples in our tutorials, you'll frequently see an "Open in Electron Fiddle" button underneath a code block. If you have Fiddle installed, this button will open a fiddle.electronjs.org link that will automatically load the example into Fiddle, no copy-pasting required.
+            Fiddle also integrates nicely with electron's documentation. When browsing through examples in electron's tutorials, you'll frequently see an "Open in Electron Fiddle" button underneath a code block. If you have Fiddle installed, this button will open a fiddle.electronjs.org link that will automatically load the example into Fiddle, no copy-pasting required.
         </p>
     </blockquote>
-    <p>
-        `Electron Fiddle Page:`
-        <a href="https://www.electronjs.org/fiddle">
-            Here
-        </a>
-    </p>
 </details>
