@@ -74,7 +74,7 @@
             </li>
             <li>
                 (Optional) Visual Studio Code
-            <li>
+            </li>
             <li>
                 (Optional) Github Desktop
             </li>
