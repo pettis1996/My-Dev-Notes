@@ -55,7 +55,6 @@
 ## 🌱 Getting Started 🌱
 
 ### 💻 Building a test application 💻
-<hr>
 
 <details>
     <summary>
