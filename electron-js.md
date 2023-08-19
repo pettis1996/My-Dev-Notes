@@ -110,7 +110,7 @@
         </strong>
     </p>
     <p>
-        If you are on a Windows machine, please do not use Windows Subsystem for Linux (WSL) when following this tutorial as you will run into issues when trying to execute the application.
+        If you are on a <strong>Windows</strong> machine, please <strong>do not</strong> use <strong>Windows Subsystem for Linux (WSL)</strong> when following this tutorial as you will run into issues when trying to execute the application.
     </p>
 </blockquote>
 <br>
@@ -141,15 +141,56 @@ Electron apps are scaffolded using `npm`, with the `package.json` file as an ent
     yarn init
 ```
 
-<p>
-    This command will prompt you to configure some fields in your package.json. There are a few rules to follow for the purposes of this tutorial:
-</p>
+This command will prompt you to configure some fields in your `package.json`. There are a few rules to follow for the purposes of this tutorial:
 
 <ul>
     <li>
-        entry point should be main.js (you will be creating that file soon).
+        entry point should be <strong>main.js</strong> (you will be creating that file soon).
     </li>
     <li>
         author, license, and description can be any value, but will be necessary for packaging later on.
     </li>
 </ul>
+
+Then, install Electron into your app's **devDependencies**, which is the list of external **development-only** package dependencies **not required in production**.
+<br>
+
+<strong>
+    npm
+</strong>
+<br>
+
+```bash
+    npm install electron --save-dev
+```
+
+<strong>
+    Yarn
+</strong>
+<br>
+
+```bash
+    yarn add electron --dev
+```
+
+Your `package.json` file should look something like this after initializing your package and installing **Electron**. You should also now have a node_modules folder containing the `Electron executable`, as well as a `package-lock.json` lockfile that specifies the exact dependency versions to install.
+
+`package.json`
+<br>
+
+```json
+    {
+        "name": "my-electron-app",
+        "version": "1.0.0",
+        "description": "Hello World!",
+        "main": "main.js",
+        "scripts": {
+            "test": "echo \"Error: no test specified\" && exit 1"
+        },
+        "author": "Jane Doe",
+        "license": "MIT",
+        "devDependencies": {
+            "electron": "23.1.3"
+        }
+    }
+```
