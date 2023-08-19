@@ -1,5 +1,10 @@
 # 📝 ElectronJS Notes 📝
 
+`Official Documentation:` 
+<a href="https://www.electronjs.org/docs/latest/">
+    ElectronJS Docs
+</a>
+
 ## 📢 Introduction 📢
 
 <details>
@@ -14,7 +19,7 @@
     </blockquote>
 </details>
 
-<details style="border: 2px solid white">
+<details>
     <summary>
         Common examples of applications built with Electron
     </summary>
