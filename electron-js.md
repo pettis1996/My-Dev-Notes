@@ -104,9 +104,9 @@
 <br>
 
 <blockquote>
-    <p>
+    <strong>
         ⚠️ AVOID WSL ⚠️
-    </p>
+    </strong>
     <p>
         If you are on a Windows machine, please do not use Windows Subsystem for Linux (WSL) when following this tutorial as you will run into issues when trying to execute the application.
     </p>
@@ -115,6 +115,5 @@
 <h5>
     Initializing the project
 </h5>
----
 
 Electron apps are scaffolded using `npm`, with the `package.json` file as an entry point. Start by creating a folder and initializing an npm package within it with `npm init`.
