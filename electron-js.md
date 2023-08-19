@@ -1,6 +1,6 @@
-# 📝 ElectronJS Notes
+# 📝 ElectronJS Notes 📝
 
-## 📢 Introduction
+## 📢 Introduction 📢
 
 <details>
     <summary>
