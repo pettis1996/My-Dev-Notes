@@ -215,3 +215,46 @@ Before creating your first Electron app, you will first use a trivial script to 
 ```javascript
     console.log('Hello from Electron 👋')
 ```
+<br>
+
+Because Electron's main process is a `Node.js` runtime, you can execute arbitrary `Node.js` code with the electron command (you can even use it as a **REPL**). To execute this script, add `electron .` to the `start` command in the scripts field of your `package.json`. This command will tell the Electron executable to look for the main script in the current directory and run it in **dev mode**.
+
+```json
+    {
+        "name": "my-electron-app",
+        "version": "1.0.0",
+        "description": "Hello World!",
+        "main": "main.js",
+        "scripts": {
+            "start": "electron .",
+            "test": "echo \"Error: no test specified\" && exit 1"
+        },
+        "author": "Jane Doe",
+        "license": "MIT",
+        "devDependencies": {
+            "electron": "23.1.3"
+        }
+    }
+```
+<br>
+
+<strong>
+    npm
+</strong>
+<br>
+
+```bash
+    npm run start
+```
+
+<strong>
+    Yarn
+</strong>
+<br>
+
+```bash
+    yarn run start
+```
+
+Your terminal should print out `Hello from Electron 👋`. 
+**Congratulations**, you have executed your first line of code in Electron! Next, you will learn how to create user interfaces with `HTML` and load that into a native window.
