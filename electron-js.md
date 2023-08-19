@@ -98,9 +98,9 @@
     </blockquote>
 </details>
 
-<h5>
+<h4>
     Setting up the project
-</h5>
+</h4>
 <br>
 
 <blockquote>
@@ -113,9 +113,43 @@
         If you are on a Windows machine, please do not use Windows Subsystem for Linux (WSL) when following this tutorial as you will run into issues when trying to execute the application.
     </p>
 </blockquote>
+<br>
 
-<h5>
+<h4>
     Initializing the project
-</h5>
+</h4>
 
 Electron apps are scaffolded using `npm`, with the `package.json` file as an entry point. Start by creating a folder and initializing an npm package within it with `npm init`.
+
+<strong>
+    npm
+</strong>
+<br>
+
+```bash
+    mkdir my-electron-app && cd my-electron-app
+    npm init
+```
+
+<strong>
+    Yarn
+</strong>
+<br>
+
+```bash
+    mkdir my-electron-app && cd my-electron-app
+    yarn init
+```
+
+<p>
+    This command will prompt you to configure some fields in your package.json. There are a few rules to follow for the purposes of this tutorial:
+</p>
+
+<ul>
+    <li>
+        entry point should be main.js (you will be creating that file soon).
+    </li>
+    <li>
+        author, license, and description can be any value, but will be necessary for packaging later on.
+    </li>
+</ul>
