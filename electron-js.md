@@ -194,6 +194,7 @@ Your `package.json` file should look something like this after initializing your
         }
     }
 ```
+<br>    
 
 <h4>
     Adding a .gitignore file
