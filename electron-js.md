@@ -51,3 +51,36 @@
         </p>
     </blockquote>
 </details>
+
+## 🌱 Getting Started 🌱
+
+### 💻 Building a test application 💻
+
+<details>
+    <summary>
+        What you will need to begin with
+    </summary>
+    <br>
+    <blockquote>
+        <p>
+            First, navigate to the <a href="https://www.electronjs.org/docs/latest/tutorial/tutorial-prerequisites">Prerequisites</a> page, to see what you will need to install on your machine in order to begin with using ElectronJS.
+        </p>
+        <p>
+            The most important prerequisites to have are:
+        </p>
+        <ul>
+            <li>
+                Github
+            </li>
+            <li>
+                (Optional) Visual Studio Code
+            <li>
+            <li>
+                (Optional) Github Desktop
+            </li>
+            <li>
+                NodeJS and NPM/NPX/NVM Installed
+            </li>
+        </ul>
+    </blockquote>
+</details>
