@@ -258,3 +258,108 @@ Because Electron's main process is a `Node.js` runtime, you can execute arbitrar
 
 Your terminal should print out `Hello from Electron 👋`. 
 **Congratulations**, you have executed your first line of code in Electron! Next, you will learn how to create user interfaces with `HTML` and load that into a native window.
+<br><br>
+
+### 💻 Loading a web page into a BrowserWindow 💻
+
+In Electron, each **window** displays a **web page** that can be loaded either from a local `HTML file` or a `remote web address`. For this example, you will be loading in a local file. Start by creating a barebones web page in an `index.html` file in the `root` folder of your project:
+
+`index.html`
+<br>
+
+```html
+    <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8" />
+            <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+            <meta
+            http-equiv="Content-Security-Policy"
+            content="default-src 'self'; script-src 'self'"
+            />
+            <meta
+            http-equiv="X-Content-Security-Policy"
+            content="default-src 'self'; script-src 'self'"
+            />
+            <title>Hello from Electron renderer!</title>
+        </head>
+        <body>
+            <h1>Hello from Electron renderer!</h1>
+            <p>👋</p>
+        </body>
+    </html>
+```
+<br>
+
+Now that you have a web page, you can load it into an **Electron BrowserWindow**. Replace the contents of your `main.js` file with the following code.
+
+`main.js`
+<br>
+
+```javascript
+    const { app, BrowserWindow } = require('electron')
+
+    const createWindow = () => {
+        const win = new BrowserWindow({
+            width: 800,
+            height: 600
+        })
+
+        win.loadFile('index.html')
+    }
+
+    app.whenReady().then(() => {
+        createWindow()
+    })
+```
+<br>
+
+<h4>
+    Importing modules
+</h4>
+<br>
+
+In the first line, we are importing two Electron modules with **CommonJS** module syntax:
+
+- <a href="https://www.electronjs.org/docs/latest/api/app">app</a>, which controls your application's event lifecycle.
+- <a href="https://www.electronjs.org/docs/latest/api/browser-window">BrowserWindow</a>, which creates and manages app windows.
+<br>
+
+<h4>
+    Writing a reusable function to instantiate windows
+</h4>
+<br>
+
+`main.js (Lines 3-10)`
+<br>
+
+```javascript
+    const createWindow = () => {
+        const win = new BrowserWindow({
+            width: 800,
+            height: 600
+        })
+
+        win.loadFile('index.html')
+    }
+```
+<br>
+
+<h4>
+    Calling your function when the app is ready
+</h4>
+<br>
+
+```javascript
+    app.whenReady().then(() => {
+        createWindow()
+    })
+```
+
+Many of Electron's core modules are `Node.js` event emitters that adhere to Node's asynchronous event-driven architecture. The app module is one of these emitters.
+
+In Electron, **BrowserWindows** can only be created after the app module's `ready` event is fired. You can wait for this event by using the `app.whenReady()` API and calling `createWindow()` once its promise is fulfilled.
+
+At this point, running your Electron application's `start` command should successfully open a window that displays your web page!
+
+Each web page your app displays in a window will run in a separate process called a **renderer process** (or simply renderer for short). Renderer processes have access to the same **JavaScript APIs** and tooling you use for typical front-end web development, such as using **webpack** to bundle and minify your code or **React** to build your user interfaces.
