@@ -82,5 +82,16 @@
                 NodeJS and NPM/NPX/NVM Installed
             </li>
         </ul>
+        <p>
+            <strong>
+                ⚠️ CAUTION ⚠️
+            </strong>
+        </p>
+        <blockquote>
+            Although you need Node.js installed locally to scaffold an Electron project, Electron does not use your system's Node.js installation to run its code. Instead, it comes bundled with its own Node.js runtime. This means that your end users do not need to install Node.js themselves as a prerequisite to running your app.
+        </blockquote>
+        <blockquote>
+            To check which version of Node.js is running in your app, you can access the global process.versions variable in the main process or preload script. You can also reference https://releases.electronjs.org/releases.json.
+        </blockquote>
     </blockquote>
 </details>
