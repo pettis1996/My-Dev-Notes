@@ -104,9 +104,11 @@
 <br>
 
 <blockquote>
-    <strong>
-        ⚠️ AVOID WSL ⚠️
-    </strong>
+    <p>
+        <strong>
+            ⚠️ AVOID WSL ⚠️
+        </strong>
+    </p>
     <p>
         If you are on a Windows machine, please do not use Windows Subsystem for Linux (WSL) when following this tutorial as you will run into issues when trying to execute the application.
     </p>
