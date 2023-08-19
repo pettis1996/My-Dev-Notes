@@ -199,6 +199,21 @@ Your `package.json` file should look something like this after initializing your
 <h4>
     Adding a .gitignore file
 </h4>
-<br>
 
 The `.gitignore` file specifies which files and directories to avoid tracking with **Git**. You should place a copy of <a href="https://github.com/github/gitignore/blob/main/Node.gitignore">GitHub's Node.js gitignore template</a> into your project's root folder to avoid committing your project's `node_modules` folder.
+<br>
+
+<h4>
+    Running an Electron App
+</h4>
+
+The `main` script you defined in `package.json` is the entry point of any Electron application. This script controls the main process, which runs in a `Node.js` environment and is responsible for **controlling your app's lifecycle**, **displaying native interfaces**, **performing privileged operations**, and **managing renderer processes**.
+
+Before creating your first Electron app, you will first use a trivial script to ensure your main process entry point is configured correctly. Create a `main.js` file in the `root` folder of your project with a single line of code:
+
+`main.js`
+<br>
+
+```javascript
+    console.log('Hello from Electron 👋')
+```
