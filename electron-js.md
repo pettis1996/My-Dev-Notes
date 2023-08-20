@@ -364,3 +364,21 @@ In Electron, **BrowserWindows** can only be created after the app module's `read
 At this point, running your Electron application's `start` command should successfully open a window that displays your web page!
 
 Each web page your app displays in a window will run in a separate process called a **renderer process** (or simply renderer for short). Renderer processes have access to the same **JavaScript APIs** and tooling you use for typical front-end web development, such as using **webpack** to bundle and minify your code or **React** to build your user interfaces.
+
+
+### 💻 Managing your app's window lifecycle 💻
+
+Application windows behave differently on each operating system. Rather than enforce these conventions by default, Electron gives you the choice to implement them in your app code if you wish to follow them. You can implement basic window conventions by listening for events emitted by the app and BrowserWindow modules.
+
+<h4>
+    Quit the app when all windows are closed (Windows & Linux)
+</h4>
+<br>
+
+On Windows and Linux, closing all windows will generally quit an application entirely. To implement this patter in your Electron app, listen for the app module's `window-all-closed` event, and call `app.quit()` to exit your app if the user is not on macOS.
+
+```javascript
+    app.on('window-all-closed', () => {
+        if (process.platform !== 'darwin') app.quit()
+    })
+```
