@@ -10,6 +10,17 @@
 <a href="https://www.electronjs.org/docs/latest/tutorial/tutorial-prerequisites">
     Build your first Electron App
 </a>
+<br>
+
+`Electron-Vite-React Teamplate`
+<a href="https://github.com/electron-vite/electron-vite-react">
+    Template Repository
+</a>
+
+`Electron-Vite-Vue Template`
+<a href="https://github.com/electron-vite/electron-vite-vue">
+    Template Repository
+</a>
 
 ## 📢 Introduction 📢
 
