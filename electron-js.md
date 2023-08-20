@@ -1,23 +1,16 @@
 # 📝 ElectronJS Notes 📝
 
-`Official Documentation:` 
-<a href="https://www.electronjs.org/docs/latest/">
-    ElectronJS Docs
-</a>
+[`Official Documentation`](https://www.electronjs.org/docs/latest/)
 <br>
 
-[`First Application Tutorial:`](https://www.electronjs.org/docs/latest/tutorial/tutorial-prerequisites)
+[`First Application Tutorial`](https://www.electronjs.org/docs/latest/tutorial/tutorial-prerequisites)
 <br>
 
-`Electron-Vite-React Teamplate`
-<a href="https://github.com/electron-vite/electron-vite-react">
-    Template Repository
-</a>
+[`Electron-Vite-React Teamplate`](https://github.com/electron-vite/electron-vite-react)
+<br>
 
-`Electron-Vite-Vue Template`
-<a href="https://github.com/electron-vite/electron-vite-vue">
-    Template Repository
-</a>
+[`Electron-Vite-Vue Template`](https://github.com/electron-vite/electron-vite-vue)
+<br>
 
 ## 📢 Introduction 📢
 
