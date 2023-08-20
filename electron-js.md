@@ -6,7 +6,7 @@
 </a>
 <br>
 
-`First Application Tutorial:`
+`First Application Tutorial:`[`Duck Duck Go`](https://duckduckgo.com)
 <a href="https://www.electronjs.org/docs/latest/tutorial/tutorial-prerequisites">
     Build your first Electron App
 </a>
