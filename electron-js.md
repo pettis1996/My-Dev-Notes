@@ -6,10 +6,7 @@
 </a>
 <br>
 
-`First Application Tutorial:`[`Duck Duck Go`](https://duckduckgo.com)
-<a href="https://www.electronjs.org/docs/latest/tutorial/tutorial-prerequisites">
-    Build your first Electron App
-</a>
+[`First Application Tutorial:`](https://www.electronjs.org/docs/latest/tutorial/tutorial-prerequisites)
 <br>
 
 `Electron-Vite-React Teamplate`
