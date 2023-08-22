@@ -44,7 +44,7 @@ React components are JavaScript functions that return markup.
     function MyButton() {
         return (
             <button>A Button</button>
-        )
+        );
     }
 ```
 
@@ -57,7 +57,7 @@ Now that `MyButton` has been declared, it can be nested into another component.
                 <h1>Welcome to my App</h1>
                 <MyButton />
             </div>
-        )
+        );
     }
 ```
 
@@ -81,9 +81,81 @@ JSX is stricter than HTML. You have to close tags like <br />. Your component al
                     How are you?    
                 </p>
             </p>
-        )
+        );
     }
 ```
 
 If you have a lot of HTML to port to JSX, you can use:
 [`HTML to JSX Converter`](https://transform.tools/html-to-jsx)
+
+### 💻 Adding Styles 💻 
+
+In React, you specify a CSS class with `className`. It works the same way as an `HTML class attribute`:
+
+```javascript
+    <img className="avatar" />
+```
+
+Then you write the CSS rules for it in a separate CSS file:
+
+```css
+    .avatar {
+        border-radius: 50%;
+    }
+```
+
+React does not prescribe how to add CSS files. In the simplest case, you'll add a `<link>` tag to your HTML. If you use a build tool or a framework, consult its documentation to learn how to add a CSS file to the project.
+
+### 💻 Displaying Data 💻
+
+JSX lets you put markup into JavaScript. Curly braces let you "escape back" into JavaScript so that you can embed some variable from your code and display it to the user.
+
+```javascript
+    return (
+        <>
+            <h1>{user.name}</h1>
+        </>
+    );
+```
+
+You can also "escape into Javascirpt" from JSX attributes, but you have to use curly braces instead of quotes.
+For example, `className="avatar"` passes the `avatar` string as the CSS class, but `src={user.image_url}` reads the JavaScript `user.image_url` variable value, and then passes that value as the `src` attribute:
+
+```javascript
+    return (
+        <img
+            className="avatar"
+            src={user.image_url}
+        />
+    );
+```
+
+You can put more complex expressions inside JSX curly braces too, for example: [`String Concatination`](https://javascript.info/operators#string-concatenation-with-binary)
+
+
+```javascript
+    const user = {
+        name: 'Hedy Lamarr',
+        imageUrl: 'https://i.imgur.com/yXOvdOSs.jpg',
+        imageSize: 90,
+    };
+
+    export default function Profile() {
+    return (
+        <>
+        <h1>{user.name}</h1>
+        <img
+            className="avatar"
+            src={user.imageUrl}
+            alt={'Photo of ' + user.name}
+            style={{
+                width: user.imageSize,
+                height: user.imageSize
+            }}
+        />
+        </>
+    );
+    }
+```
+
+In the above example, `style={{}}` is not a special syntax, but a regular `{}` object inside the `style={}` JSX curly braces. You can use the `style` attribute when your styles depend on JavaScript variables.
