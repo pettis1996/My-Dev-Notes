@@ -61,7 +61,7 @@ Now that `MyButton` has been declared, it can be nested into another component.
     }
 ```
 
-The `export default` keywords specify the main component in the file. If you're not familiar with some piece of JavaScript syntax, `[https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export](MDN)` and `[https://javascript.info/import-export](javascript.info)` have great references.
+The `export default` keywords specify the main component in the file. If you're not familiar with some piece of JavaScript syntax, [`MDN`](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export) and [`javascript.info`](https://javascript.info/import-export) have great references.
 
 Notice <MyButton /> starts with a capital letter. That's how you know it's a React component. React component names must always start with a capital letter, while HTML tags must be lowercase.
 
@@ -86,4 +86,4 @@ JSX is stricter than HTML. You have to close tags like <br />. Your component al
 ```
 
 If you have a lot of HTML to port to JSX, you can use:
-`[https://transform.tools/html-to-jsx](HTML to JSX Converter)`
+[`HTML to JSX Converter`](https://transform.tools/html-to-jsx)
