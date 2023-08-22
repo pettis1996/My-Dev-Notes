@@ -36,3 +36,126 @@ React is often used in **combination** with other libraries and tools, such as `
 - **Compatibility**: React can be integrated with other Javascript frameworks and libraries. This means you can graddually adopt React into an existing codebase, which is useful when migrating from older technologies or frameworks.
 
 ### 💻 Creating and Nesting Components 💻 
+
+React apps are made out of components. A component is a place of the UI that has its own logic and appearance. A component can be as a button or as large as an entire page.
+React components are JavaScript functions that return markup.
+
+```javascript
+    function MyButton() {
+        return (
+            <button>A Button</button>
+        );
+    }
+```
+
+Now that `MyButton` has been declared, it can be nested into another component.
+
+```javascript
+    export default function MyApp() {
+        return (
+            <div>
+                <h1>Welcome to my App</h1>
+                <MyButton />
+            </div>
+        );
+    }
+```
+
+The `export default` keywords specify the main component in the file. If you're not familiar with some piece of JavaScript syntax, [`MDN`](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export) and [`javascript.info`](https://javascript.info/import-export) have great references.
+
+Notice <MyButton /> starts with a capital letter. That's how you know it's a React component. React component names must always start with a capital letter, while HTML tags must be lowercase.
+
+### 💻 Writing markup with JSX 💻 
+
+The markup syntax you've seen above is called JSX. It is optional, but most React projects use JSX for its convenience.
+JSX is stricter than HTML. You have to close tags like <br />. Your component also can't return multiple JSX tags. You have to wrap them into a shared parent, like a `<div>...</div>` or an empty `<>...</>` wrapper:
+
+```javascript
+    function AboutPage() {
+        return (
+            <>
+                <h1>About</h1>
+                <p>
+                    Hello
+                    <br />
+                    How are you?    
+                </p>
+            </p>
+        );
+    }
+```
+
+If you have a lot of HTML to port to JSX, you can use:
+[`HTML to JSX Converter`](https://transform.tools/html-to-jsx)
+
+### 💻 Adding Styles 💻 
+
+In React, you specify a CSS class with `className`. It works the same way as an `HTML class attribute`:
+
+```javascript
+    <img className="avatar" />
+```
+
+Then you write the CSS rules for it in a separate CSS file:
+
+```css
+    .avatar {
+        border-radius: 50%;
+    }
+```
+
+React does not prescribe how to add CSS files. In the simplest case, you'll add a `<link>` tag to your HTML. If you use a build tool or a framework, consult its documentation to learn how to add a CSS file to the project.
+
+### 💻 Displaying Data 💻
+
+JSX lets you put markup into JavaScript. Curly braces let you "escape back" into JavaScript so that you can embed some variable from your code and display it to the user.
+
+```javascript
+    return (
+        <>
+            <h1>{user.name}</h1>
+        </>
+    );
+```
+
+You can also "escape into Javascirpt" from JSX attributes, but you have to use curly braces instead of quotes.
+For example, `className="avatar"` passes the `avatar` string as the CSS class, but `src={user.image_url}` reads the JavaScript `user.image_url` variable value, and then passes that value as the `src` attribute:
+
+```javascript
+    return (
+        <img
+            className="avatar"
+            src={user.image_url}
+        />
+    );
+```
+
+You can put more complex expressions inside JSX curly braces too, for example: [`String Concatination`](https://javascript.info/operators#string-concatenation-with-binary)
+
+
+```javascript
+    const user = {
+        name: 'Hedy Lamarr',
+        imageUrl: 'https://i.imgur.com/yXOvdOSs.jpg',
+        imageSize: 90,
+    };
+
+    export default function Profile() {
+    return (
+        <>
+        <h1>{user.name}</h1>
+        <img
+            className="avatar"
+            src={user.imageUrl}
+            alt={'Photo of ' + user.name}
+            style={{
+                width: user.imageSize,
+                height: user.imageSize
+            }}
+        />
+        </>
+    );
+    }
+```
+
+In the above example, `style={{}}` is not a special syntax, but a regular `{}` object inside the `style={}` JSX curly braces. You can use the `style` attribute when your styles depend on JavaScript variables.
