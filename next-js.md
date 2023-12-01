@@ -1,6 +1,4 @@
-# NextJS
-
-# Notes
+# 📝 NextJS Notes 📝 
 
 ## 1 - Getting Started
 
