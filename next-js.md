@@ -2,23 +2,15 @@
 
 # Notes
 
----
-
 ## 1 - Getting Started
 
----
-
 ### What is Next.js
-
----
 
 Next.js is a **React framework** for building full-stack web applications. You use React Components to build user interfaces, and **Next.js for additional features and optimizations**.
 
 Under the hood, Next.js also **abstracts** and **automatically configures** tooling needed for React, like **bundling**, **compiling**, and more. This allows you to focus on building your application instead of spending time with configuration.
 
 ### Main Features
-
----
 
 Some of the main Next.js features include:
 
@@ -33,8 +25,6 @@ Some of the main Next.js features include:
 
 ### App Router vs Pages Router
 
----
-
 Next.js has **two different routers**: the **App Router** and the **Pages Router**. 
 
 The App Router is a newer router that **allows you to use React's latest features**, such as Server Components and Streaming. 
@@ -43,18 +33,18 @@ The Pages Router is the original Next.js router, which **allowed you to build se
 
 ## 2 - Installation
 
----
+
 
 ### System Requirements
 
----
+
 
 - [Node.js 18.17](https://nodejs.org/) or later.
 - macOS, Windows (including WSL), and Linux are supported.
 
 ### Automatic Installation
 
----
+
 
 ```bash
 npx create-next-app@latest
@@ -77,7 +67,7 @@ After the prompts, `create-next-app` will create a folder with your project na
 
 ### Manual Installation
 
----
+
 
 To manually create a new **Next.js app**, install the required packages:
 
@@ -198,11 +188,11 @@ Create a `public` folder to store static assets such as images, fonts, etc. Fi
 
 ## 3 - Building Your Application
 
----
+
 
 ### A - Routing
 
----
+
 
 ******************************************Routing Fundementals******************************************
 
