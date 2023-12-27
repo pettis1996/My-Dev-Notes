@@ -1,4 +1,4 @@
-# 📝 NextJS Notes 📝 
+# 📝 NextJS Notes 📝
 
 ## 1 - Getting Started
 
@@ -31,18 +31,12 @@ The Pages Router is the original Next.js router, which **allowed you to build se
 
 ## 2 - Installation
 
-
-
 ### System Requirements
-
-
 
 - [Node.js 18.17](https://nodejs.org/) or later.
 - macOS, Windows (including WSL), and Linux are supported.
 
 ### Automatic Installation
-
-
 
 ```bash
 npx create-next-app@latest
@@ -64,8 +58,6 @@ What import alias would you like configured? @/*
 After the prompts, `create-next-app` will create a folder with your project name and install the required dependencies.
 
 ### Manual Installation
-
-
 
 To manually create a new **Next.js app**, install the required packages:
 
@@ -186,33 +178,29 @@ Create a `public` folder to store static assets such as images, fonts, etc. Fi
 
 ## 3 - Building Your Application
 
+### Routing
 
-
-### A - Routing
-
-
-
-******************************************Routing Fundementals******************************************
+**Routing Fundamentals**
 
 The skeleton of every application is routing. This page will introduce you to the **fundamental concepts** of routing for the web and how to handle routing in Next.js.
 
-************Terminology************
+**Terminology**
 
 First, you will see these terms being used throughout the documentation. Here's a quick reference:
 
-[https://nextjs.org/_next/image?url=%2Fdocs%2Fdark%2Fterminology-component-tree.png&w=1920&q=75&dpl=dpl_9jreweDj1d1RFNt2yi7F9bctztm3](https://nextjs.org/_next/image?url=%2Fdocs%2Fdark%2Fterminology-component-tree.png&w=1920&q=75&dpl=dpl_9jreweDj1d1RFNt2yi7F9bctztm3)
+[terminology-component-tree.avif](NextJS%20bbcf058765a249c0bc242641f610757e/terminology-component-tree.avif)
 
 - **Tree:** A convention for visualizing a hierarchical structure. For example, a component tree with **parent** and **children** components, a **folder structure**, etc.
 - **Subtree:** Part of a tree, **starting at a new root** (first) and **ending at the leaves** (last).
 - **Root**: The **first node** in a **tree** or **subtree**, such as a root layout.
 - **Leaf:** **Nodes** in a **subtree** that have **no children**, such as the last segment in a URL path.
 
-[https://nextjs.org/_next/image?url=%2Fdocs%2Fdark%2Fterminology-url-anatomy.png&w=1920&q=75&dpl=dpl_9jreweDj1d1RFNt2yi7F9bctztm3](https://nextjs.org/_next/image?url=%2Fdocs%2Fdark%2Fterminology-url-anatomy.png&w=1920&q=75&dpl=dpl_9jreweDj1d1RFNt2yi7F9bctztm3)
+[terminology-url-anatomy.avif](NextJS%20bbcf058765a249c0bc242641f610757e/terminology-url-anatomy.avif)
 
 - **URL Segment:** Part of the URL path delimited by slashes.
 - **URL Path:** Part of the URL that comes after the domain (composed of segments).
 
-******************The `app` Router**
+**The `app` Router**
 
 In version 13, Next.js introduced a new **App Router** built on [React Server Components](https://nextjs.org/docs/app/building-your-application/rendering/server-components), which supports **shared layouts**, **nested routing**, **loading states**, **error handling**, and more.
 
@@ -221,27 +209,27 @@ The App Router works in a new directory named `app`. The `app` directory work
 > **Good to know**: The App Router takes priority over the Pages Router. Routes across directories should not resolve to the same URL path and will cause a build-time error to prevent a conflict.
 > 
 
-[https://nextjs.org/_next/image?url=%2Fdocs%2Fdark%2Fnext-router-directories.png&w=1920&q=75&dpl=dpl_9jreweDj1d1RFNt2yi7F9bctztm3](https://nextjs.org/_next/image?url=%2Fdocs%2Fdark%2Fnext-router-directories.png&w=1920&q=75&dpl=dpl_9jreweDj1d1RFNt2yi7F9bctztm3)
+[next-router-directories.avif](NextJS%20bbcf058765a249c0bc242641f610757e/next-router-directories.avif)
 
 By default, components inside `app` are [React Server Components](https://nextjs.org/docs/app/building-your-application/rendering/server-components). This is a performance optimization and allows you to easily adopt them, and you can also use [Client Components](https://nextjs.org/docs/app/building-your-application/rendering/client-components).
 
 > **Recommendation:** Check out the [Server](https://nextjs.org/docs/app/building-your-application/rendering/server-components) page if you're new to Server Components.
 > 
 
-****************************************************Roles of Folders and Files****************************************************
+**Roles of Folders and Files**
 
 Next.js uses a file-system based router where:
 
 - **Folders** are used to define routes. A route is a single path of nested folders, following the file-system hierarchy from the **root folder** down to a final **leaf folder** that includes a `page.js` file. See [Defining Routes](https://nextjs.org/docs/app/building-your-application/routing/defining-routes).
 - **Files** are used to create UI that is shown for a route segment. See [special files](https://nextjs.org/docs/app/building-your-application/routing#file-conventions).
 
-********Route Segments********
+**Route Segments**
 
 Each folder in a route represents a **route segment**. Each route segment is mapped to a corresponding **segment** in a **URL path**.
 
-[https://nextjs.org/_next/image?url=%2Fdocs%2Fdark%2Froute-segments-to-path-segments.png&w=1920&q=75&dpl=dpl_9jreweDj1d1RFNt2yi7F9bctztm3](https://nextjs.org/_next/image?url=%2Fdocs%2Fdark%2Froute-segments-to-path-segments.png&w=1920&q=75&dpl=dpl_9jreweDj1d1RFNt2yi7F9bctztm3)
+[route-segments-to-path-segments.avif](NextJS%20bbcf058765a249c0bc242641f610757e/route-segments-to-path-segments.avif)
 
-************Nested Routes************ 
+**Nested Routes**
 
 To create a nested route, you can nest folders inside each other. For example, you can add a new `/dashboard/settings` route by nesting two new folders in the `app` directory.
 
@@ -251,20 +239,20 @@ The `/dashboard/settings` route is composed of three segments:
 - `dashboard` (Segment)
 - `settings` (Leaf segment)
 
-********************************File Conventions********************************
+**File Conventions**
 
 Next.js provides a set of special files to create UI with specific behavior in nested routes:
 
-| https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts#layouts | Shared UI for a segment and its children |
+| layout | Shared UI for a segment and its children |
 | --- | --- |
-| https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts#pages | Unique UI of a route and make routes publicly accessible |
-| https://nextjs.org/docs/app/building-your-application/routing/loading-ui-and-streaming | Loading UI for a segment and its children |
-| https://nextjs.org/docs/app/api-reference/file-conventions/not-found | Not found UI for a segment and its children |
-| https://nextjs.org/docs/app/building-your-application/routing/error-handling | Error UI for a segment and its children |
-| https://nextjs.org/docs/app/building-your-application/routing/error-handling | Global Error UI |
-| https://nextjs.org/docs/app/building-your-application/routing/route-handlers | Server-side API endpoint |
-| https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts#templates | Specialized re-rendered Layout UI |
-| https://nextjs.org/docs/app/api-reference/file-conventions/default | Fallback UI for https://nextjs.org/docs/app/building-your-application/routing/parallel-routes |
+| page | Unique UI of a route and make routes publicly accessible |
+| loading | Loading UI for a segment and its children |
+| not-found | Not found UI for a segment and its children |
+| error | Error UI for a segment and its children |
+| global-error | Global Error UI |
+| route | Server-side API endpoint |
+| template | Specialized re-rendered Layout UI |
+| default | Fallback UI for Parallel Routes |
 
 > **Good to know**: `.js`, `.jsx`, or `.tsx` file extensions can be used for special files.
 >
